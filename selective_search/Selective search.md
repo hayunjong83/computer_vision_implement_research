@@ -29,7 +29,7 @@ OpenCV에는 Selective Search를 수행하는 **SelectiveSearchSegmentation** �
 
 [Selective Search for Object Detection](C++/Python) 을 참고하여 작성된 프로그램에서, 빠른 속도의 구현에서는 357개의 후보영역이, 높은 재현율의 구현에서는 1209개의 후보영역이 각각 제안되었다. 좀 더 구체적인 내용은 논문 [Selective Search for Object Recognition](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)을 참고하는 것이 좋다.
 
-![f_mode](.\image\f_mode.png)
+![f_mode](./image/f_mode.png)
 
-![q_mode](.\image\q_mode.png)
+![q_mode](./image/q_mode.png)
 
