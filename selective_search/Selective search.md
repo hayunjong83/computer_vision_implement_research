@@ -27,7 +27,15 @@ OpenCV에는 Selective Search를 수행하는 **SelectiveSearchSegmentation** �
 2. slow / high recall
    switchToSelectiveSearchQuality()
 
-[Selective Search for Object Detection](https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/)을 참고하여 작성된 프로그램에서, 빠른 속도의 구현에서는 357개의 후보영역이, 높은 재현율의 구현에서는 1209개의 후보영역이 각각 제안되었다. 좀 더 구체적인 내용은 논문 [Selective Search for Object Recognition](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)을 참고하는 것이 좋다.
+[Selective Search for Object Detection](https://www.learnopencv.com/selective-search-for-object-detection-cpp-python/)을 참고하여 작성된 프로그램에서, 
+
++ 빠른 속도의 구현에서는 357개(c++)/418개(python)의 후보영역이, 
+
++ 높은 재현율의 구현에서는 1209개(c++)/1245개(python)의 후보영역이 각각 제안되었다. 
+
+  
+
+  좀 더 구체적인 내용은 논문 [Selective Search for Object Recognition](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)을 참고하는 것이 좋다.
 
 ![f_mode](./image/f_mode.png)
 

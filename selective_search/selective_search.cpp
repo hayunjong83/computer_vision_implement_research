@@ -13,7 +13,7 @@ static void help() {
 	cout << "f = fast, q = quality" << endl;
 	cout << "Use l to display less rects..." << endl;
 	cout << "...m to display more rects..." << endl;
-	cout << "...x to quit." << endl;
+	cout << "...x to exit." << endl;
 }
 
 int main(int argc, char** argv) {
@@ -98,7 +98,7 @@ int main(int argc, char** argv) {
 			// decrease total number of rectangles
 			numShowRects -= increment;
 		}
-		// "q" is pressed
+		// "x" is pressed
 		else if (k == 'x') {
 			break;
 		}
