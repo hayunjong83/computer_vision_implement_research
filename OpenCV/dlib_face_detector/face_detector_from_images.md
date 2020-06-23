@@ -1,6 +1,6 @@
 ## *face_detector_from_images.py*에 대한 설명
 
-[dlib.net](http://dlib.net/)의 얼굴 탐색을 위한 공식 예제 [face_detector.py](http://dlib.net/face_detector.py.html)를 참고한 내용입니다. dlib가 사용하는 face detector는 **HOG(Histogram of Oriented Gradients)** 특성을 *선형 분류기(linear classifier)*, *이미지 피라미드(image pyramid)*,  *슬라이딩 윈도 탐색 방식(sliding window detection scheme)*과 함께 사용합니다.
+[dlib.net](http://dlib.net/)의 얼굴 탐색을 위한 공식 예제 [face_detector.py](http://dlib.net/face_detector.py.html)를 참고한 내용입니다. dlib가 사용하는 face detector는 **HOG(Histogram of Oriented Gradients)** 특성을 *선형 분류기(linear classifier)*, *이미지 피라미드(image pyramid)*,  슬라이딩 윈도 탐색 방식(sliding window detection scheme)과 함께 사용합니다.
 
 테스트할 이미지 파일을 실행파일 뒤에 차례로 나열하면 얼굴탐색을 시작합니다.  다음 분석 이미지로 넘어가려면 엔터키를 눌러줍니다.( [dlib.hit_enter_to_continue()](http://dlib.net/python/index.html#dlib.hit_enter_to_continue) ) 이번 예제에서는 처리한 영상을 보여주기 위해서 opencv 대신에 dlib의 *GUI 윈도*를 사용합니다. 사용한 함수는 다음과 같습니다.
 
