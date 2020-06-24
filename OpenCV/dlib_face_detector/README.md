@@ -9,4 +9,4 @@
 
 
 - *[face_detector_from_images.py](face_detector_from_images.md)* : 정지 이미지로부터의 얼굴 검출
-- *face_detector_from_video.py* : 웹캠 영상으로부터의 얼굴 검출
+- *[face_detector_from_webcam.py](face_detector_from_webcam.md)* : 웹캠 영상으로부터의 얼굴 검출
