@@ -1,4 +1,4 @@
-# face_detector_from_webcam.py에 대한 설명
+## *face_detector_from_webcam.py*에 대한 설명
 
 *face_detector_from_images.py* 에서 나아가 정지영상이 아닌 실시간 웹캠 입력에서 얼굴을 분석해보는 예제다. 
 
