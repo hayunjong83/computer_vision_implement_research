@@ -11,9 +11,9 @@
 
 
 
-예제에서 사용하는 face_detector 객체는 [dlib.get_frontal_face_detector()](http://dlib.net/python/index.html#dlib.get_frontal_face_detector)를 통해 생성합니다.  생성된 [dlib.fhog_object_detector](http://dlib.net/python/index.html#dlib.fhog_object_detector) 객체는 이미지에 대한 넘파이 배열과 좀더 정밀한 탐색을 위해 이미지를 확대하는 횟수인 *upsample_num_times* 를 입력으로 받는다. ( 참고로 공식예제에서는 1번만 업샘플링하지만, 사용한 이미지(*lovelys.jpg*)에서 2번 업샘플링했을 때 모든 얼굴을 탐색해낼 수 있었다.) 
+예제에서 사용하는 face_detector 객체는 [dlib.get_frontal_face_detector()](http://dlib.net/python/index.html#dlib.get_frontal_face_detector)를 통해 생성한다.  생성된 [dlib.fhog_object_detector](http://dlib.net/python/index.html#dlib.fhog_object_detector) 객체는 이미지에 대한 넘파이 배열과 좀더 정밀한 탐색을 위해 이미지를 확대하는 횟수인 *upsample_num_times* 를 입력으로 받는다. ( 참고로 공식예제에서는 1번만 업샘플링하지만, 사용한 이미지(*lovelys.jpg*)에서 2번 업샘플링했을 때 모든 얼굴을 탐색해낼 수 있었다.) 
 
 객체의 __ call __ 메소드 대신에 **run()함수**를 실행할 때는 얼굴 탐색 결과와 더불어 탐색 점수(score)와 **사용된 HOG 필터**의 종류을 반환해준다. 예제에는 face_type으로 적혀있는 *sub-detector*의 내용은 [참고](https://github.com/davisking/dlib/blob/master/dlib/image_processing/frontal_face_detector.h)에서 찾을 수 있다. 5개의 HOG 필터는 front-looking, left-looking, right-looking,  front-looking-but-rotated-left, front-looking-but-rotated-right 를 각각 가리킨다. 
 
-이 필터와 계산된 점수는 인자로 설정한 threshold값까지만 구하게 되는데, 음수로 설정되면 더 많은 탐색결과를 볼 수 있고, 양수로 설정되면 더 적은 탐색결과를 갖게 됩니다. (공식예제에서는 -1로 설정되었습니다.)
+이 필터와 계산된 점수는 인자로 설정한 threshold값까지만 구하게 되는데, 음수로 설정되면 더 많은 탐색결과를 볼 수 있고, 양수로 설정되면 더 적은 탐색결과를 갖게 된다. (공식예제에서는 -1로 설정되었다.)
 

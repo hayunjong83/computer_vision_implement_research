@@ -7,7 +7,7 @@ win = dlib.image_window()
 if len(sys.argv) == 1:
     print("""
     Usage in Windows: 
-    python face_detector.py [filename1, [filename2] ...)
+    python face_detector_from_images.py [filename1, [filename2] ...)
     """)
 else:
     for file in sys.argv[1:]:
