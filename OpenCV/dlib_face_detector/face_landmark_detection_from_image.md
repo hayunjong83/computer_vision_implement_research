@@ -2,7 +2,9 @@
 
 dlib의 default detector의 사용에서 나아가, 얼굴에서 파악할 수 있는 **특징점(landmark)** 를  통한 얼굴 탐색에 관한 내용이다. 여기에서 사용하는 **shape_predictor_68_face_landmarks.dat** 파일은 300-W 데이터셋에서 훈련되어 추출된 68개의 얼굴 특징점(facial landmark) 정보를 가지고 있다.
 
-![68 facial landmark](facial_landmark.png){: width="50%" height="50%"}
+<img src="facial_landmark.png" alt="68 facial landmark" style="zoom:67%;" />
+
+
 
 > ICCV(International Conference on Computer Vision) 2013에는 사람의 얼굴 위치를 찾아내는 첫번째 대회인 **300 Faces in-the-Wild Challenge** 가 개최되었다. 여기에 사용된 데이터셋이 [*300-W dataset*](https://ibug.doc.ic.ac.uk/resources/300-W/)으로 *i · bug (intelligent behaviour understanding group)* 에서 관리되고 있다. 
 >
