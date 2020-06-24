@@ -10,3 +10,4 @@
 
 - *[face_detector_from_images.py](face_detector_from_images.md)* : 정지 이미지로부터의 얼굴 검출
 - *[face_detector_from_webcam.py](face_detector_from_webcam.md)* : 웹캠 영상으로부터의 얼굴 검출
+- [*face_landmark_detection_from_image.py*](face_landmark_detection_from_image.md) : 미리 훈련된 정면 얼굴의 68개 특징점을 이용한 얼굴 검출
