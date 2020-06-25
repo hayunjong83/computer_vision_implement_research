@@ -8,6 +8,7 @@
 
 
 
-- *[face_detector_from_images.py](face_detector_from_images/README.md)* : 정지 이미지로부터의 얼굴 검출
-- *[face_detector_from_webcam.py](face_detector_from_webcam/README.md)* : 웹캠 영상으로부터의 얼굴 검출
-- [*face_landmark_detection_from_image.py*](face_landmark_detection_from_image/README.md) : 미리 훈련된 정면 얼굴의 68개 특징점을 이용한 얼굴 검출
+- *[face_detector_from_images.py](1. face_detector_from_images/README.md)* : 정지 이미지로부터의 얼굴 탐색
+- *[face_detector_from_webcam.py](2. face_detector_from_webcam/README.md)* : 웹캠 영상으로부터의 얼굴 탐색
+- [*face_landmark_detection_from_image.py*](3. face_landmark_detection_from_image/README.md) : 미리 훈련된 정면 얼굴의 68개 특징점을 이용한 얼굴 탐색
+- [*cnn_face_detector.py*](4. cnn_face_detector.py/README.md) : CNN을 활용한 얼굴 탐색
