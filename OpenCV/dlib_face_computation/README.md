@@ -18,7 +18,7 @@
 
 > 얼굴 특징점 탐색(face landmark localization)
 >
-> - [*face_landmark_detection_from_image.py*](5_face_landmark_detection_from_image/README.md) : 미리 훈련된 정면 얼굴의 68개 특징점을 이용한 얼굴 탐색
+> - [*face_landmark_detection_from_image.py*](4_face_landmark_detection_from_image/README.md) : 미리 훈련된 정면 얼굴의 68개 특징점을 이용한 얼굴 탐색
 
 
 
